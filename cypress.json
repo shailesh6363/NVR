@@ -1,0 +1,13 @@
+{
+    "defaultCommandTimeout": 10000,
+   
+    "env": {
+        "url":"https://192.168.222.210:32500/#/auth/login",
+      "resourceURL": "https://192.168.222.210:32500/#/resource/site"
+    },
+
+    "chromeWebSecurity": false
+    
+   
+      
+}
