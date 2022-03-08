@@ -21,7 +21,7 @@ describe("NVR Test Case Automation",()=>{
        cy.xpath("//a[@href='#/resource/site']").invoke('attr','href').then(href=>{
            cy.visit(href);
        })
-  
+   
      })
 
 })
