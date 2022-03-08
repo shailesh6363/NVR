@@ -21,17 +21,7 @@ describe("NVR Test Case Automation",()=>{
        cy.xpath("//a[@href='#/resource/site']").invoke('attr','href').then(href=>{
            cy.visit(href);
        })
-    //     //cy.request(Cypress.env('resourceURL'))
-    //    // cy.openTab("https://192.168.222.210:32500/#/resource/site")
-
-    // dash.selectMenu().click()
-    // cy.wait(5000)
-    // cy.contains('Resources').click()
-    // //   //  cy.contains('href').should('have.a.property',"#/resource/site").click()
-    // //   //cy.contains('href',"#/resource/site").click()
-    // //    dash.selectResource().click()
-    // //    })
-    // //     //cy.url().should('include',"resource/site")
+  
      })
 
 })
